@@ -1,43 +1,25 @@
 body{
-    /* background-color: #FEF3C6; */
+    /* background:#daf1fc url(/images/bg.png) repeat-x; */
+    background-color: white;
+    font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: 320;
+  font-style: normal;
 }
-
-.big{
-    font-size:10em;
-    color: black;
-}
-
-#content {
- background:#fcfcfc;
- width:560px;
- border:3px solid #d6c8ba;
- padding:10px 15px;
- float:left;
- margin:30px 10px 10px 25px;
- min-height:400px;
- _height:400px;
-}
-
-#nav {
- margin:38px 10px 20px 640px;
- background:#fcfcfc url(/web/20111110031945im_/http://www.indiepages.com/seriestwo/pix/logo2.gif) no-repeat 3px bottom;
- border:3px solid #d6c8ba;
- padding:15px 20px 200px 15px;
- font-size:14px;
- width:120px;
- font-weight:bold;
- line-height:1.5em;
- white-space:nowrap;
-}
-
 #logo{
     position:absolute;
     left:5px;
     top:5px;
     width:725px;
     height:90px;
-    border: solid black 1px;
+    /* border: solid  1px; */
+    /* background-color: #ddcfa5; */
 }
+
+a {color:#b0a499; text-decoration:none; border-bottom:none}
+a:visited {color:#b0a499}
+a:hover {color:#b0a499; background-color:transparent; border-bottom:none}
+a:active {color:#d6c8ba}
 
 #navbar{
     position:absolute; 
@@ -45,7 +27,12 @@ body{
     top:100px; 
     width:725px; 
     height:25px; 
-    border: solid black 1px;
+    /* border: solid black 1px; */
+    background-color: white;
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #photos{
@@ -54,8 +41,8 @@ body{
     top:130px; 
     width:500px; 
     height:500px; 
-    border: solid black 1px;
-
+    /* border: solid black 1px; */
+background-color: white;
 }
 
 #sidebar{
@@ -64,10 +51,28 @@ body{
     top:130px; 
     width:220px; 
     height:500px; 
-    border: solid black 1px;
+    /* border: solid black 1px; */
+    background-color: white;
+}
+
+img{
+    display: block;
+    float: left;
 }
 
 
 .side_p{
     margin:5%;
+}
+
+.title{
+      font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:2em;
+  color:#ddcfa5;
+  position:absolute;
+  left:30px;
+  top:-10px;
 }
