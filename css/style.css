@@ -77,6 +77,15 @@ a:active {color:#d6c8ba}
     background-color: white;
 }
 
+#music_videos{
+    position:absolute; 
+    left:100px; 
+    top:250px; 
+    width:130px; 
+    border: solid black 1px;
+    background-color: white;
+}
+
 #gallery_sidebar{
     position:absolute; 
     left:380px; 
