@@ -58,6 +58,15 @@ a:active {color:#d6c8ba}
     background-color: white;
 }
 
+#news{
+    position:absolute; 
+    left:50px; 
+    top:500px; 
+    max-width:220px;
+    border: solid black 1px;
+    background-color: white;
+    /* margin:5%; */
+}
 
 #music_sidebar{
     position:absolute; 
@@ -118,4 +127,8 @@ img{
   position:absolute;
   left:30px;
   top:-10px;
+}
+
+.centered{
+    text-align: center;
 }
